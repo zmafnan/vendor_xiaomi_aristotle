@@ -1,0 +1,14 @@
+// HOS2 camera with vendor-key discovery fix, signed with a dedicated camera key.
+// Reproduce using device/xiaomi/aristotle/leica/patch_camera.py; preserve JNI libraries.
+android_app_import {
+    name: "AristotleMiuiCamera",
+    apk: "MiuiCamera.apk",
+    presigned: true,
+    preprocessed: true,
+    system_ext_specific: true,
+    // Optional Xiaomi framework libraries are not supplied by this integration.
+    // Avoid preoptimizing against an incomplete class-loader context.
+    dex_preopt: {
+        enabled: false,
+    },
+}
