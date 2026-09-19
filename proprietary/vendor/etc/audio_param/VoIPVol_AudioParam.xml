@@ -23,19 +23,19 @@
   <ParamUnitPool>
     <ParamUnit param_id="0">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="1">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="2">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="4">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="5">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
@@ -47,15 +47,15 @@
     </ParamUnit>
     <ParamUnit param_id="7">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="9">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="10">
       <Param name="dl_gain" value="28,25,22,19,16,13,10,7,4,1,0"/>
-      <Param name="ul_gain" value="24"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="11">
       <Param name="dl_gain" value="37,34,31,28,25,22,19,16,14,12,10"/>
