@@ -39,7 +39,6 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     strip: { none: true },
     soc_specific: true,
-    prefer: true,
 }
 
 cc_prebuilt_library_shared {
