@@ -119,7 +119,6 @@
         <stream type="voice_communication">
             <apply effect="aec"/>
             <apply effect="ns"/>
-            <apply effect="agc"/>
         </stream>
     </preprocess>
 
