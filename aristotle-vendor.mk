@@ -977,6 +977,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
 
 PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0 \
     libtinyxml2-vendorcompat \
     libc++_shared \
     libalsautils \

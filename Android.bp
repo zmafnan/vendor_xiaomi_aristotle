@@ -10,6 +10,18 @@ soong_namespace {
     ],
 }
 
+cc_prebuilt_library_shared {
+    name: "android.frameworks.displayservice@1.0",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/android.frameworks.displayservice@1.0.so"],
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    soc_specific: true,
+}
+
 // HOS2 XMLDocument ABI for the legacy PQ blob; keep the platform library intact.
 cc_prebuilt_library_shared {
     name: "libtinyxml2-vendorcompat",
